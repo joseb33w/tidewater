@@ -1,0 +1,13 @@
+{
+  "quests": [
+    {
+      "id": "stroll",
+      "name": "A Coastal Stroll",
+      "steps": [
+        { "objective": { "type": "reach_area", "target": "c5_1" }, "desc": "Stroll east to the old lighthouse on the point" }
+      ],
+      "rewards": {},
+      "on_complete_flags": ["reached_lighthouse"]
+    }
+  ]
+}
